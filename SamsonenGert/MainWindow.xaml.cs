@@ -24,5 +24,10 @@ namespace SamsonenGert
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            lblRes.Content = "Hello werld".ToString();
+        }
     }
 }
