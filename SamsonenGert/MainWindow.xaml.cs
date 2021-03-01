@@ -31,5 +31,10 @@ namespace SamsonenGert
             iCounter++;
             lblCounter.Content = iCounter.ToString();
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            lblRes.Content = "Hello werld".ToString();
+        }
     }
 }
