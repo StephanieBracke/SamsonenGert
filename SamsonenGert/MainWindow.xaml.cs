@@ -24,5 +24,12 @@ namespace SamsonenGert
         {
             InitializeComponent();
         }
+
+        int iCounter = 0;
+        private void btnClick_Click(object sender, RoutedEventArgs e)
+        {
+            iCounter++;
+            lblCounter.Content = iCounter.ToString();
+        }
     }
 }
